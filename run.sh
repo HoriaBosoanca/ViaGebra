@@ -1,1 +1,1 @@
-cmake --build build/ && ./build/main
+g++ src/*.cpp -Iinclude -Llib -l:libraylib.a -lopengl32 -lgdi32 -o bin/main && ./bin/main
