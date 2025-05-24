@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/main.dir/link.d CMakeFiles/main.dir/src/main.cpp.o -o main  /home/horia/Code/projects/ViaGebra/lib/libraylib.a

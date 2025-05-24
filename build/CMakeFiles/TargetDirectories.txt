@@ -1,0 +1,3 @@
+/home/horia/Code/projects/ViaGebra/build/CMakeFiles/main.dir
+/home/horia/Code/projects/ViaGebra/build/CMakeFiles/edit_cache.dir
+/home/horia/Code/projects/ViaGebra/build/CMakeFiles/rebuild_cache.dir
