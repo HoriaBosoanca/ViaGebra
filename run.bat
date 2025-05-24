@@ -1,0 +1,1 @@
+cmake --build .\build-windows\ && .\build-windows\main.exe
