@@ -1,1 +1,1 @@
-cmake --build .\build-windows\ && .\build-windows\main.exe
+g++ src\*.cpp -Iinclude -Llib-windows -l:libraylib.a -lopengl32 -lgdi32 -lwinmm -o bin/main.exe && .\bin\main.exe

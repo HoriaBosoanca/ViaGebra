@@ -1,3 +1,0 @@
-C:/Users/redpl/ViaGebra/build-windows/CMakeFiles/main.dir
-C:/Users/redpl/ViaGebra/build-windows/CMakeFiles/edit_cache.dir
-C:/Users/redpl/ViaGebra/build-windows/CMakeFiles/rebuild_cache.dir
