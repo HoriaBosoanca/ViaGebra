@@ -1,18 +1,32 @@
+#include "drawfunc.h"
 #include "raylib.h"
 
-int main(void)
+float f(float x) {
+    return x*x;
+}
+
+float X_SCREEN;
+float Y_SCREEN;
+
+int main()
 {
-    InitWindow(800, 450, "raylib [core] example - basic window");
+    InitWindow(X_SCREEN, Y_SCREEN, "ViaGebra");
+
+    int monitor = GetCurrentMonitor();
+    X_SCREEN = GetMonitorWidth(monitor);
+    Y_SCREEN = GetMonitorHeight(monitor);
+    ToggleFullscreen();
 
     while (!WindowShouldClose())
     {
         BeginDrawing();
         ClearBackground(RAYWHITE);
-        DrawText("Congrats! You created your first window!", 190, 200, 20, LIGHTGRAY);
+
+        drawFunc(f);
+
         EndDrawing();
     }
 
     CloseWindow();
-
     return 0;
 }
