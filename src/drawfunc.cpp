@@ -1,17 +1,13 @@
 #include "drawfunc.h"
-
-#include <iostream>
-#include <bits/ostream.tcc>
-
 #include "raylib.h"
 #include "main.h"
 
 void drawFunc(float (*func)(float)) {
-	float prev = func(-100.0f);
+	float prevX = -100.0, prevY = func(-100.0f);
 	for (float i = -100.0f; i <= 100.0f; i += 0.01f) {
-		drawLine({i, func(i)}, {prev, func(prev)}, 5.0, RED);
-		prev = func(i);
-		std::cout << i << " " << func(i) << std::endl;
+		drawLine({i, func(i)}, {prevX, prevY}, 5.0, RED);
+		prevX = i;
+		prevY = func(i);
 	}
 }
 

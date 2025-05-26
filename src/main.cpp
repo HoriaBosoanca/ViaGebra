@@ -2,7 +2,7 @@
 #include "raylib.h"
 
 float f(float x) {
-    return x*x;
+    return x*x*x/100;
 }
 
 float X_SCREEN;
