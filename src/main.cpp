@@ -1,8 +1,8 @@
 #include "drawfunc.h"
-#include "raylib.h"
+#include <cmath>
 
 float f(float x) {
-    return x*x*x/100;
+    return 10*std::sin(x);
 }
 
 float X_SCREEN;

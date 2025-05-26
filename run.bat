@@ -1,1 +1,1 @@
-g++ src\*.cpp -Iinclude -Llib-windows -l:libraylib.a -lopengl32 -lgdi32 -lwinmm -o bin/main.exe && .\bin\main.exe
+g++ src\*.cpp -Iinclude -Ilib-windows\raylib\include -Llib-windows\raylib\lib -l:libraylib.a -lopengl32 -lgdi32 -lwinmm -o bin/main.exe && .\bin\main.exe
