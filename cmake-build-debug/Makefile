@@ -153,6 +153,30 @@ src/drawfunc.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/drawfunc.cpp.s
 .PHONY : src/drawfunc.cpp.s
 
+src/input.obj: src/input.cpp.obj
+.PHONY : src/input.obj
+
+# target to build an object file
+src/input.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/input.cpp.obj
+.PHONY : src/input.cpp.obj
+
+src/input.i: src/input.cpp.i
+.PHONY : src/input.i
+
+# target to preprocess a source file
+src/input.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/input.cpp.i
+.PHONY : src/input.cpp.i
+
+src/input.s: src/input.cpp.s
+.PHONY : src/input.s
+
+# target to generate assembly for a file
+src/input.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/input.cpp.s
+.PHONY : src/input.cpp.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -189,6 +213,9 @@ help:
 	@echo ... src/drawfunc.obj
 	@echo ... src/drawfunc.i
 	@echo ... src/drawfunc.s
+	@echo ... src/input.obj
+	@echo ... src/input.i
+	@echo ... src/input.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

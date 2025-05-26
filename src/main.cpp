@@ -1,8 +1,9 @@
 #include "drawfunc.h"
 #include <cmath>
+#include "input.h"
 
 float f(float x) {
-    return 10*std::sin(x);
+    return x*x;
 }
 
 float X_SCREEN;
@@ -15,13 +16,13 @@ int main()
     int monitor = GetCurrentMonitor();
     X_SCREEN = GetMonitorWidth(monitor);
     Y_SCREEN = GetMonitorHeight(monitor);
-    ToggleFullscreen();
 
     while (!WindowShouldClose())
     {
         BeginDrawing();
         ClearBackground(RAYWHITE);
 
+        handleInput();
         drawFunc(f);
 
         EndDrawing();

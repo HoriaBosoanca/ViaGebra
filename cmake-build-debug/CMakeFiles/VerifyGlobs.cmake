@@ -6,6 +6,7 @@ cmake_policy(SET CMP0009 NEW)
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "C:/Users/redpl/ViaGebra/src/*.cpp")
 set(OLD_GLOB
   "C:/Users/redpl/ViaGebra/src/drawfunc.cpp"
+  "C:/Users/redpl/ViaGebra/src/input.cpp"
   "C:/Users/redpl/ViaGebra/src/main.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")

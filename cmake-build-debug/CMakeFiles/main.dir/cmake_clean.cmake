@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/main.dir/src/drawfunc.cpp.obj"
   "CMakeFiles/main.dir/src/drawfunc.cpp.obj.d"
+  "CMakeFiles/main.dir/src/input.cpp.obj"
+  "CMakeFiles/main.dir/src/input.cpp.obj.d"
   "CMakeFiles/main.dir/src/main.cpp.obj"
   "CMakeFiles/main.dir/src/main.cpp.obj.d"
   "libmain.dll.a"
