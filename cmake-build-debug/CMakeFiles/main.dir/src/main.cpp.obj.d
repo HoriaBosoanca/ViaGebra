@@ -70,4 +70,17 @@ CMakeFiles/main.dir/src/main.cpp.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2025.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/poly_hermite.tcc \
  C:/Program\ Files/JetBrains/CLion\ 2025.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/poly_laguerre.tcc \
  C:/Program\ Files/JetBrains/CLion\ 2025.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/riemann_zeta.tcc \
- C:/Users/redpl/ViaGebra/include/input.h
+ C:/Users/redpl/ViaGebra/include/input.h \
+ C:/Users/redpl/ViaGebra/lib-windows/rlimgui/rlImGui.h \
+ C:/Users/redpl/ViaGebra/lib-windows/raylib/include/raylib.h \
+ C:/Users/redpl/ViaGebra/lib-windows/rlimgui/extras/IconsFontAwesome6.h \
+ C:/Users/redpl/ViaGebra/lib-windows/imgui/imgui.h \
+ C:/Users/redpl/ViaGebra/lib-windows/imgui/imconfig.h \
+ C:/Program\ Files/JetBrains/CLion\ 2025.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/float.h \
+ C:/Program\ Files/JetBrains/CLion\ 2025.1.1/bin/mingw/x86_64-w64-mingw32/include/float.h \
+ C:/Program\ Files/JetBrains/CLion\ 2025.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stddef.h \
+ C:/Program\ Files/JetBrains/CLion\ 2025.1.1/bin/mingw/x86_64-w64-mingw32/include/stddef.h \
+ C:/Program\ Files/JetBrains/CLion\ 2025.1.1/bin/mingw/x86_64-w64-mingw32/include/string.h \
+ C:/Program\ Files/JetBrains/CLion\ 2025.1.1/bin/mingw/x86_64-w64-mingw32/include/sec_api/string_s.h \
+ C:/Program\ Files/JetBrains/CLion\ 2025.1.1/bin/mingw/x86_64-w64-mingw32/include/assert.h \
+ C:/Program\ Files/JetBrains/CLion\ 2025.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdlib

@@ -1,4 +1,4 @@
 "C:\Program Files\JetBrains\CLion 2025.1.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "MinGW Makefiles" -S C:\Users\redpl\ViaGebra -B C:\Users\redpl\ViaGebra\cmake-build-debug
--- Configuring done (0.2s)
+-- Configuring done (0.1s)
 -- Generating done (0.0s)
 -- Build files have been written to: C:/Users/redpl/ViaGebra/cmake-build-debug

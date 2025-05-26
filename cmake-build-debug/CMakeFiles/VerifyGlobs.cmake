@@ -3,6 +3,30 @@
 cmake_policy(SET CMP0009 NEW)
 
 # SOURCES at CMakeLists.txt:6 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "C:/Users/redpl/ViaGebra/lib-windows/imgui/*.cpp")
+set(OLD_GLOB
+  "C:/Users/redpl/ViaGebra/lib-windows/imgui/imgui.cpp"
+  "C:/Users/redpl/ViaGebra/lib-windows/imgui/imgui_demo.cpp"
+  "C:/Users/redpl/ViaGebra/lib-windows/imgui/imgui_draw.cpp"
+  "C:/Users/redpl/ViaGebra/lib-windows/imgui/imgui_tables.cpp"
+  "C:/Users/redpl/ViaGebra/lib-windows/imgui/imgui_widgets.cpp"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "C:/Users/redpl/ViaGebra/cmake-build-debug/CMakeFiles/cmake.verify_globs")
+endif()
+
+# SOURCES at CMakeLists.txt:6 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "C:/Users/redpl/ViaGebra/lib-windows/rlimgui/*.cpp")
+set(OLD_GLOB
+  "C:/Users/redpl/ViaGebra/lib-windows/rlimgui/rlImGui.cpp"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "C:/Users/redpl/ViaGebra/cmake-build-debug/CMakeFiles/cmake.verify_globs")
+endif()
+
+# SOURCES at CMakeLists.txt:6 (file)
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "C:/Users/redpl/ViaGebra/src/*.cpp")
 set(OLD_GLOB
   "C:/Users/redpl/ViaGebra/src/drawfunc.cpp"

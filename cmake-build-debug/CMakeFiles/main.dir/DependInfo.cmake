@@ -8,6 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/redpl/ViaGebra/lib-windows/imgui/imgui.cpp" "CMakeFiles/main.dir/lib-windows/imgui/imgui.cpp.obj" "gcc" "CMakeFiles/main.dir/lib-windows/imgui/imgui.cpp.obj.d"
+  "C:/Users/redpl/ViaGebra/lib-windows/imgui/imgui_demo.cpp" "CMakeFiles/main.dir/lib-windows/imgui/imgui_demo.cpp.obj" "gcc" "CMakeFiles/main.dir/lib-windows/imgui/imgui_demo.cpp.obj.d"
+  "C:/Users/redpl/ViaGebra/lib-windows/imgui/imgui_draw.cpp" "CMakeFiles/main.dir/lib-windows/imgui/imgui_draw.cpp.obj" "gcc" "CMakeFiles/main.dir/lib-windows/imgui/imgui_draw.cpp.obj.d"
+  "C:/Users/redpl/ViaGebra/lib-windows/imgui/imgui_tables.cpp" "CMakeFiles/main.dir/lib-windows/imgui/imgui_tables.cpp.obj" "gcc" "CMakeFiles/main.dir/lib-windows/imgui/imgui_tables.cpp.obj.d"
+  "C:/Users/redpl/ViaGebra/lib-windows/imgui/imgui_widgets.cpp" "CMakeFiles/main.dir/lib-windows/imgui/imgui_widgets.cpp.obj" "gcc" "CMakeFiles/main.dir/lib-windows/imgui/imgui_widgets.cpp.obj.d"
+  "C:/Users/redpl/ViaGebra/lib-windows/rlimgui/rlImGui.cpp" "CMakeFiles/main.dir/lib-windows/rlimgui/rlImGui.cpp.obj" "gcc" "CMakeFiles/main.dir/lib-windows/rlimgui/rlImGui.cpp.obj.d"
   "C:/Users/redpl/ViaGebra/src/drawfunc.cpp" "CMakeFiles/main.dir/src/drawfunc.cpp.obj" "gcc" "CMakeFiles/main.dir/src/drawfunc.cpp.obj.d"
   "C:/Users/redpl/ViaGebra/src/input.cpp" "CMakeFiles/main.dir/src/input.cpp.obj" "gcc" "CMakeFiles/main.dir/src/input.cpp.obj.d"
   "C:/Users/redpl/ViaGebra/src/main.cpp" "CMakeFiles/main.dir/src/main.cpp.obj" "gcc" "CMakeFiles/main.dir/src/main.cpp.obj.d"

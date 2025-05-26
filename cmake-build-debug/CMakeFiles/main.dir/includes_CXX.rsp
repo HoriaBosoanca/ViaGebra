@@ -1,1 +1,1 @@
--IC:/Users/redpl/ViaGebra/include -I"C:/Users/redpl/ViaGebra/lib-windows/raylib/include"
+-IC:/Users/redpl/ViaGebra/include -I"C:/Users/redpl/ViaGebra/lib-windows/raylib/include" -I"C:/Users/redpl/ViaGebra/lib-windows/imgui" -I"C:/Users/redpl/ViaGebra/lib-windows/rlimgui"

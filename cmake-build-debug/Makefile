@@ -129,6 +129,150 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+lib-windows/imgui/imgui.obj: lib-windows/imgui/imgui.cpp.obj
+.PHONY : lib-windows/imgui/imgui.obj
+
+# target to build an object file
+lib-windows/imgui/imgui.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/lib-windows/imgui/imgui.cpp.obj
+.PHONY : lib-windows/imgui/imgui.cpp.obj
+
+lib-windows/imgui/imgui.i: lib-windows/imgui/imgui.cpp.i
+.PHONY : lib-windows/imgui/imgui.i
+
+# target to preprocess a source file
+lib-windows/imgui/imgui.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/lib-windows/imgui/imgui.cpp.i
+.PHONY : lib-windows/imgui/imgui.cpp.i
+
+lib-windows/imgui/imgui.s: lib-windows/imgui/imgui.cpp.s
+.PHONY : lib-windows/imgui/imgui.s
+
+# target to generate assembly for a file
+lib-windows/imgui/imgui.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/lib-windows/imgui/imgui.cpp.s
+.PHONY : lib-windows/imgui/imgui.cpp.s
+
+lib-windows/imgui/imgui_demo.obj: lib-windows/imgui/imgui_demo.cpp.obj
+.PHONY : lib-windows/imgui/imgui_demo.obj
+
+# target to build an object file
+lib-windows/imgui/imgui_demo.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/lib-windows/imgui/imgui_demo.cpp.obj
+.PHONY : lib-windows/imgui/imgui_demo.cpp.obj
+
+lib-windows/imgui/imgui_demo.i: lib-windows/imgui/imgui_demo.cpp.i
+.PHONY : lib-windows/imgui/imgui_demo.i
+
+# target to preprocess a source file
+lib-windows/imgui/imgui_demo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/lib-windows/imgui/imgui_demo.cpp.i
+.PHONY : lib-windows/imgui/imgui_demo.cpp.i
+
+lib-windows/imgui/imgui_demo.s: lib-windows/imgui/imgui_demo.cpp.s
+.PHONY : lib-windows/imgui/imgui_demo.s
+
+# target to generate assembly for a file
+lib-windows/imgui/imgui_demo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/lib-windows/imgui/imgui_demo.cpp.s
+.PHONY : lib-windows/imgui/imgui_demo.cpp.s
+
+lib-windows/imgui/imgui_draw.obj: lib-windows/imgui/imgui_draw.cpp.obj
+.PHONY : lib-windows/imgui/imgui_draw.obj
+
+# target to build an object file
+lib-windows/imgui/imgui_draw.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/lib-windows/imgui/imgui_draw.cpp.obj
+.PHONY : lib-windows/imgui/imgui_draw.cpp.obj
+
+lib-windows/imgui/imgui_draw.i: lib-windows/imgui/imgui_draw.cpp.i
+.PHONY : lib-windows/imgui/imgui_draw.i
+
+# target to preprocess a source file
+lib-windows/imgui/imgui_draw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/lib-windows/imgui/imgui_draw.cpp.i
+.PHONY : lib-windows/imgui/imgui_draw.cpp.i
+
+lib-windows/imgui/imgui_draw.s: lib-windows/imgui/imgui_draw.cpp.s
+.PHONY : lib-windows/imgui/imgui_draw.s
+
+# target to generate assembly for a file
+lib-windows/imgui/imgui_draw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/lib-windows/imgui/imgui_draw.cpp.s
+.PHONY : lib-windows/imgui/imgui_draw.cpp.s
+
+lib-windows/imgui/imgui_tables.obj: lib-windows/imgui/imgui_tables.cpp.obj
+.PHONY : lib-windows/imgui/imgui_tables.obj
+
+# target to build an object file
+lib-windows/imgui/imgui_tables.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/lib-windows/imgui/imgui_tables.cpp.obj
+.PHONY : lib-windows/imgui/imgui_tables.cpp.obj
+
+lib-windows/imgui/imgui_tables.i: lib-windows/imgui/imgui_tables.cpp.i
+.PHONY : lib-windows/imgui/imgui_tables.i
+
+# target to preprocess a source file
+lib-windows/imgui/imgui_tables.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/lib-windows/imgui/imgui_tables.cpp.i
+.PHONY : lib-windows/imgui/imgui_tables.cpp.i
+
+lib-windows/imgui/imgui_tables.s: lib-windows/imgui/imgui_tables.cpp.s
+.PHONY : lib-windows/imgui/imgui_tables.s
+
+# target to generate assembly for a file
+lib-windows/imgui/imgui_tables.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/lib-windows/imgui/imgui_tables.cpp.s
+.PHONY : lib-windows/imgui/imgui_tables.cpp.s
+
+lib-windows/imgui/imgui_widgets.obj: lib-windows/imgui/imgui_widgets.cpp.obj
+.PHONY : lib-windows/imgui/imgui_widgets.obj
+
+# target to build an object file
+lib-windows/imgui/imgui_widgets.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/lib-windows/imgui/imgui_widgets.cpp.obj
+.PHONY : lib-windows/imgui/imgui_widgets.cpp.obj
+
+lib-windows/imgui/imgui_widgets.i: lib-windows/imgui/imgui_widgets.cpp.i
+.PHONY : lib-windows/imgui/imgui_widgets.i
+
+# target to preprocess a source file
+lib-windows/imgui/imgui_widgets.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/lib-windows/imgui/imgui_widgets.cpp.i
+.PHONY : lib-windows/imgui/imgui_widgets.cpp.i
+
+lib-windows/imgui/imgui_widgets.s: lib-windows/imgui/imgui_widgets.cpp.s
+.PHONY : lib-windows/imgui/imgui_widgets.s
+
+# target to generate assembly for a file
+lib-windows/imgui/imgui_widgets.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/lib-windows/imgui/imgui_widgets.cpp.s
+.PHONY : lib-windows/imgui/imgui_widgets.cpp.s
+
+lib-windows/rlimgui/rlImGui.obj: lib-windows/rlimgui/rlImGui.cpp.obj
+.PHONY : lib-windows/rlimgui/rlImGui.obj
+
+# target to build an object file
+lib-windows/rlimgui/rlImGui.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/lib-windows/rlimgui/rlImGui.cpp.obj
+.PHONY : lib-windows/rlimgui/rlImGui.cpp.obj
+
+lib-windows/rlimgui/rlImGui.i: lib-windows/rlimgui/rlImGui.cpp.i
+.PHONY : lib-windows/rlimgui/rlImGui.i
+
+# target to preprocess a source file
+lib-windows/rlimgui/rlImGui.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/lib-windows/rlimgui/rlImGui.cpp.i
+.PHONY : lib-windows/rlimgui/rlImGui.cpp.i
+
+lib-windows/rlimgui/rlImGui.s: lib-windows/rlimgui/rlImGui.cpp.s
+.PHONY : lib-windows/rlimgui/rlImGui.s
+
+# target to generate assembly for a file
+lib-windows/rlimgui/rlImGui.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/lib-windows/rlimgui/rlImGui.cpp.s
+.PHONY : lib-windows/rlimgui/rlImGui.cpp.s
+
 src/drawfunc.obj: src/drawfunc.cpp.obj
 .PHONY : src/drawfunc.obj
 
@@ -210,6 +354,24 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... main
+	@echo ... lib-windows/imgui/imgui.obj
+	@echo ... lib-windows/imgui/imgui.i
+	@echo ... lib-windows/imgui/imgui.s
+	@echo ... lib-windows/imgui/imgui_demo.obj
+	@echo ... lib-windows/imgui/imgui_demo.i
+	@echo ... lib-windows/imgui/imgui_demo.s
+	@echo ... lib-windows/imgui/imgui_draw.obj
+	@echo ... lib-windows/imgui/imgui_draw.i
+	@echo ... lib-windows/imgui/imgui_draw.s
+	@echo ... lib-windows/imgui/imgui_tables.obj
+	@echo ... lib-windows/imgui/imgui_tables.i
+	@echo ... lib-windows/imgui/imgui_tables.s
+	@echo ... lib-windows/imgui/imgui_widgets.obj
+	@echo ... lib-windows/imgui/imgui_widgets.i
+	@echo ... lib-windows/imgui/imgui_widgets.s
+	@echo ... lib-windows/rlimgui/rlImGui.obj
+	@echo ... lib-windows/rlimgui/rlImGui.i
+	@echo ... lib-windows/rlimgui/rlImGui.s
 	@echo ... src/drawfunc.obj
 	@echo ... src/drawfunc.i
 	@echo ... src/drawfunc.s
