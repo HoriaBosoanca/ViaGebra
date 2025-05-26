@@ -30,6 +30,7 @@ endif()
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "C:/Users/redpl/ViaGebra/src/*.cpp")
 set(OLD_GLOB
   "C:/Users/redpl/ViaGebra/src/drawfunc.cpp"
+  "C:/Users/redpl/ViaGebra/src/gui.cpp"
   "C:/Users/redpl/ViaGebra/src/input.cpp"
   "C:/Users/redpl/ViaGebra/src/main.cpp"
   )

@@ -176,11 +176,26 @@ CMakeFiles/main.dir/src/drawfunc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/drawfunc.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\redpl\ViaGebra\src\drawfunc.cpp -o CMakeFiles\main.dir\src\drawfunc.cpp.s
 
+CMakeFiles/main.dir/src/gui.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/gui.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/src/gui.cpp.obj: C:/Users/redpl/ViaGebra/src/gui.cpp
+CMakeFiles/main.dir/src/gui.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\redpl\ViaGebra\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main.dir/src/gui.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/gui.cpp.obj -MF CMakeFiles\main.dir\src\gui.cpp.obj.d -o CMakeFiles\main.dir\src\gui.cpp.obj -c C:\Users\redpl\ViaGebra\src\gui.cpp
+
+CMakeFiles/main.dir/src/gui.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/gui.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\redpl\ViaGebra\src\gui.cpp > CMakeFiles\main.dir\src\gui.cpp.i
+
+CMakeFiles/main.dir/src/gui.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/gui.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\redpl\ViaGebra\src\gui.cpp -o CMakeFiles\main.dir\src\gui.cpp.s
+
 CMakeFiles/main.dir/src/input.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/input.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/src/input.cpp.obj: C:/Users/redpl/ViaGebra/src/input.cpp
 CMakeFiles/main.dir/src/input.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\redpl\ViaGebra\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main.dir/src/input.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\redpl\ViaGebra\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/main.dir/src/input.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/input.cpp.obj -MF CMakeFiles\main.dir\src\input.cpp.obj.d -o CMakeFiles\main.dir\src\input.cpp.obj -c C:\Users\redpl\ViaGebra\src\input.cpp
 
 CMakeFiles/main.dir/src/input.cpp.i: cmake_force
@@ -195,7 +210,7 @@ CMakeFiles/main.dir/src/main.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/main.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/src/main.cpp.obj: C:/Users/redpl/ViaGebra/src/main.cpp
 CMakeFiles/main.dir/src/main.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\redpl\ViaGebra\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/main.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\redpl\ViaGebra\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/main.dir/src/main.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/main.cpp.obj -MF CMakeFiles\main.dir\src\main.cpp.obj.d -o CMakeFiles\main.dir\src\main.cpp.obj -c C:\Users\redpl\ViaGebra\src\main.cpp
 
 CMakeFiles/main.dir/src/main.cpp.i: cmake_force
@@ -215,6 +230,7 @@ main_OBJECTS = \
 "CMakeFiles/main.dir/lib-windows/imgui/imgui_widgets.cpp.obj" \
 "CMakeFiles/main.dir/lib-windows/rlimgui/rlImGui.cpp.obj" \
 "CMakeFiles/main.dir/src/drawfunc.cpp.obj" \
+"CMakeFiles/main.dir/src/gui.cpp.obj" \
 "CMakeFiles/main.dir/src/input.cpp.obj" \
 "CMakeFiles/main.dir/src/main.cpp.obj"
 
@@ -228,6 +244,7 @@ main.exe: CMakeFiles/main.dir/lib-windows/imgui/imgui_tables.cpp.obj
 main.exe: CMakeFiles/main.dir/lib-windows/imgui/imgui_widgets.cpp.obj
 main.exe: CMakeFiles/main.dir/lib-windows/rlimgui/rlImGui.cpp.obj
 main.exe: CMakeFiles/main.dir/src/drawfunc.cpp.obj
+main.exe: CMakeFiles/main.dir/src/gui.cpp.obj
 main.exe: CMakeFiles/main.dir/src/input.cpp.obj
 main.exe: CMakeFiles/main.dir/src/main.cpp.obj
 main.exe: CMakeFiles/main.dir/build.make
@@ -235,7 +252,7 @@ main.exe: C:/Users/redpl/ViaGebra/lib-windows/raylib/lib/libraylib.a
 main.exe: CMakeFiles/main.dir/linkLibs.rsp
 main.exe: CMakeFiles/main.dir/objects1.rsp
 main.exe: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\redpl\ViaGebra\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable main.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\redpl\ViaGebra\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable main.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\main.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

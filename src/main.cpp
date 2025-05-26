@@ -1,8 +1,7 @@
 #include "drawfunc.h"
-#include <cmath>
+#include "gui.h"
 #include "input.h"
 #include "rlImGui.h"
-#include "imgui.h"
 
 float f(float x) {
     return x*x;
@@ -27,12 +26,7 @@ int main()
 
         handleInput();
         drawFunc(f);
-
-        rlImGuiBegin();
-        ImGui::Begin("Hello, ImGui!");
-        ImGui::Text("This is some text.");
-        ImGui::End();
-        rlImGuiEnd();
+        drawGui();
 
         EndDrawing();
     }

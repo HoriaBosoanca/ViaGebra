@@ -297,6 +297,30 @@ src/drawfunc.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/drawfunc.cpp.s
 .PHONY : src/drawfunc.cpp.s
 
+src/gui.obj: src/gui.cpp.obj
+.PHONY : src/gui.obj
+
+# target to build an object file
+src/gui.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/gui.cpp.obj
+.PHONY : src/gui.cpp.obj
+
+src/gui.i: src/gui.cpp.i
+.PHONY : src/gui.i
+
+# target to preprocess a source file
+src/gui.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/gui.cpp.i
+.PHONY : src/gui.cpp.i
+
+src/gui.s: src/gui.cpp.s
+.PHONY : src/gui.s
+
+# target to generate assembly for a file
+src/gui.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/gui.cpp.s
+.PHONY : src/gui.cpp.s
+
 src/input.obj: src/input.cpp.obj
 .PHONY : src/input.obj
 
@@ -375,6 +399,9 @@ help:
 	@echo ... src/drawfunc.obj
 	@echo ... src/drawfunc.i
 	@echo ... src/drawfunc.s
+	@echo ... src/gui.obj
+	@echo ... src/gui.i
+	@echo ... src/gui.s
 	@echo ... src/input.obj
 	@echo ... src/input.i
 	@echo ... src/input.s

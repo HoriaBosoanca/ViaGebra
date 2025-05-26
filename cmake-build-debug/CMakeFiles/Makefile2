@@ -84,12 +84,12 @@ clean: CMakeFiles/main.dir/clean
 CMakeFiles/main.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\redpl\ViaGebra\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\redpl\ViaGebra\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target main"
 .PHONY : CMakeFiles/main.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\redpl\ViaGebra\cmake-build-debug\CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\redpl\ViaGebra\cmake-build-debug\CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\redpl\ViaGebra\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/main.dir/rule
@@ -101,7 +101,7 @@ main: CMakeFiles/main.dir/rule
 # codegen rule for target.
 CMakeFiles/main.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\redpl\ViaGebra\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Finished codegen for target main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\redpl\ViaGebra\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Finished codegen for target main"
 .PHONY : CMakeFiles/main.dir/codegen
 
 # clean rule for target.

@@ -13,6 +13,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/main.dir/lib-windows/rlimgui/rlImGui.cpp.obj.d"
   "CMakeFiles/main.dir/src/drawfunc.cpp.obj"
   "CMakeFiles/main.dir/src/drawfunc.cpp.obj.d"
+  "CMakeFiles/main.dir/src/gui.cpp.obj"
+  "CMakeFiles/main.dir/src/gui.cpp.obj.d"
   "CMakeFiles/main.dir/src/input.cpp.obj"
   "CMakeFiles/main.dir/src/input.cpp.obj.d"
   "CMakeFiles/main.dir/src/main.cpp.obj"
