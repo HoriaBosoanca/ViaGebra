@@ -1,1 +1,0 @@
- C:/Users/redpl/ViaGebra/lib/raylib/lib/libraylib.a C:/Users/redpl/ViaGebra/lib/lua/lib/lua54.lib -lwinmm -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
