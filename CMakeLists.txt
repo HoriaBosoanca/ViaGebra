@@ -22,3 +22,8 @@ target_link_libraries(main PRIVATE
         ${CMAKE_CURRENT_SOURCE_DIR}/lib/lua/lib/lua54.lib
         winmm
 )
+add_custom_command(TARGET main POST_BUILD
+        COMMAND ${CMAKE_COMMAND} -E copy_if_different
+        "${CMAKE_SOURCE_DIR}/lib/lua/lib/lua54.dll"
+        "$<TARGET_FILE_DIR:main>"
+)
