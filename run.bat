@@ -1,1 +1,1 @@
-g++ src\*.cpp lib-windows\imgui\*.cpp lib-windows\rlimgui\*.cpp -Iinclude -Ilib-windows\raylib\include -Ilib-windows\rlimgui -Ilib-windows\imgui -Llib-windows\raylib\lib -l:libraylib.a -lopengl32 -lgdi32 -lwinmm -o bin/main.exe && .\bin\main.exe
+g++ -std=c++23 src\*.cpp lib\imgui\*.cpp lib\rlimgui\*.cpp -Iinclude -Ilib\raylib\include -Ilib\imgui -Ilib\rlimgui -Ilib\lua\include -Ilib\sol2 -Llib\raylib\lib -Llib\lua\lib -l:libraylib.a -l:lua54.lib -lopengl32 -lgdi32 -lwinmm -o bin\main.exe && .\bin\main.exe
