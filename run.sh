@@ -1,1 +1,0 @@
-g++ src/*.cpp -Iinclude -Llib -l:libraylib.a -o bin/main && ./bin/main

@@ -71,95 +71,95 @@ include CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/codegen:
 .PHONY : CMakeFiles/main.dir/codegen
 
-CMakeFiles/main.dir/lib-windows/imgui/imgui.cpp.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/lib-windows/imgui/imgui.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
-CMakeFiles/main.dir/lib-windows/imgui/imgui.cpp.obj: C:/Users/redpl/ViaGebra/lib-windows/imgui/imgui.cpp
-CMakeFiles/main.dir/lib-windows/imgui/imgui.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\redpl\ViaGebra\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/lib-windows/imgui/imgui.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/lib-windows/imgui/imgui.cpp.obj -MF CMakeFiles\main.dir\lib-windows\imgui\imgui.cpp.obj.d -o CMakeFiles\main.dir\lib-windows\imgui\imgui.cpp.obj -c C:\Users\redpl\ViaGebra\lib-windows\imgui\imgui.cpp
+CMakeFiles/main.dir/lib/imgui/imgui.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/lib/imgui/imgui.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/lib/imgui/imgui.cpp.obj: C:/Users/redpl/ViaGebra/lib/imgui/imgui.cpp
+CMakeFiles/main.dir/lib/imgui/imgui.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\redpl\ViaGebra\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/lib/imgui/imgui.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/lib/imgui/imgui.cpp.obj -MF CMakeFiles\main.dir\lib\imgui\imgui.cpp.obj.d -o CMakeFiles\main.dir\lib\imgui\imgui.cpp.obj -c C:\Users\redpl\ViaGebra\lib\imgui\imgui.cpp
 
-CMakeFiles/main.dir/lib-windows/imgui/imgui.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/lib-windows/imgui/imgui.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\redpl\ViaGebra\lib-windows\imgui\imgui.cpp > CMakeFiles\main.dir\lib-windows\imgui\imgui.cpp.i
+CMakeFiles/main.dir/lib/imgui/imgui.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/lib/imgui/imgui.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\redpl\ViaGebra\lib\imgui\imgui.cpp > CMakeFiles\main.dir\lib\imgui\imgui.cpp.i
 
-CMakeFiles/main.dir/lib-windows/imgui/imgui.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/lib-windows/imgui/imgui.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\redpl\ViaGebra\lib-windows\imgui\imgui.cpp -o CMakeFiles\main.dir\lib-windows\imgui\imgui.cpp.s
+CMakeFiles/main.dir/lib/imgui/imgui.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/lib/imgui/imgui.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\redpl\ViaGebra\lib\imgui\imgui.cpp -o CMakeFiles\main.dir\lib\imgui\imgui.cpp.s
 
-CMakeFiles/main.dir/lib-windows/imgui/imgui_demo.cpp.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/lib-windows/imgui/imgui_demo.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
-CMakeFiles/main.dir/lib-windows/imgui/imgui_demo.cpp.obj: C:/Users/redpl/ViaGebra/lib-windows/imgui/imgui_demo.cpp
-CMakeFiles/main.dir/lib-windows/imgui/imgui_demo.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\redpl\ViaGebra\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/lib-windows/imgui/imgui_demo.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/lib-windows/imgui/imgui_demo.cpp.obj -MF CMakeFiles\main.dir\lib-windows\imgui\imgui_demo.cpp.obj.d -o CMakeFiles\main.dir\lib-windows\imgui\imgui_demo.cpp.obj -c C:\Users\redpl\ViaGebra\lib-windows\imgui\imgui_demo.cpp
+CMakeFiles/main.dir/lib/imgui/imgui_demo.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/lib/imgui/imgui_demo.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/lib/imgui/imgui_demo.cpp.obj: C:/Users/redpl/ViaGebra/lib/imgui/imgui_demo.cpp
+CMakeFiles/main.dir/lib/imgui/imgui_demo.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\redpl\ViaGebra\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/lib/imgui/imgui_demo.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/lib/imgui/imgui_demo.cpp.obj -MF CMakeFiles\main.dir\lib\imgui\imgui_demo.cpp.obj.d -o CMakeFiles\main.dir\lib\imgui\imgui_demo.cpp.obj -c C:\Users\redpl\ViaGebra\lib\imgui\imgui_demo.cpp
 
-CMakeFiles/main.dir/lib-windows/imgui/imgui_demo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/lib-windows/imgui/imgui_demo.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\redpl\ViaGebra\lib-windows\imgui\imgui_demo.cpp > CMakeFiles\main.dir\lib-windows\imgui\imgui_demo.cpp.i
+CMakeFiles/main.dir/lib/imgui/imgui_demo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/lib/imgui/imgui_demo.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\redpl\ViaGebra\lib\imgui\imgui_demo.cpp > CMakeFiles\main.dir\lib\imgui\imgui_demo.cpp.i
 
-CMakeFiles/main.dir/lib-windows/imgui/imgui_demo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/lib-windows/imgui/imgui_demo.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\redpl\ViaGebra\lib-windows\imgui\imgui_demo.cpp -o CMakeFiles\main.dir\lib-windows\imgui\imgui_demo.cpp.s
+CMakeFiles/main.dir/lib/imgui/imgui_demo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/lib/imgui/imgui_demo.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\redpl\ViaGebra\lib\imgui\imgui_demo.cpp -o CMakeFiles\main.dir\lib\imgui\imgui_demo.cpp.s
 
-CMakeFiles/main.dir/lib-windows/imgui/imgui_draw.cpp.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/lib-windows/imgui/imgui_draw.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
-CMakeFiles/main.dir/lib-windows/imgui/imgui_draw.cpp.obj: C:/Users/redpl/ViaGebra/lib-windows/imgui/imgui_draw.cpp
-CMakeFiles/main.dir/lib-windows/imgui/imgui_draw.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\redpl\ViaGebra\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/lib-windows/imgui/imgui_draw.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/lib-windows/imgui/imgui_draw.cpp.obj -MF CMakeFiles\main.dir\lib-windows\imgui\imgui_draw.cpp.obj.d -o CMakeFiles\main.dir\lib-windows\imgui\imgui_draw.cpp.obj -c C:\Users\redpl\ViaGebra\lib-windows\imgui\imgui_draw.cpp
+CMakeFiles/main.dir/lib/imgui/imgui_draw.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/lib/imgui/imgui_draw.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/lib/imgui/imgui_draw.cpp.obj: C:/Users/redpl/ViaGebra/lib/imgui/imgui_draw.cpp
+CMakeFiles/main.dir/lib/imgui/imgui_draw.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\redpl\ViaGebra\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/lib/imgui/imgui_draw.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/lib/imgui/imgui_draw.cpp.obj -MF CMakeFiles\main.dir\lib\imgui\imgui_draw.cpp.obj.d -o CMakeFiles\main.dir\lib\imgui\imgui_draw.cpp.obj -c C:\Users\redpl\ViaGebra\lib\imgui\imgui_draw.cpp
 
-CMakeFiles/main.dir/lib-windows/imgui/imgui_draw.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/lib-windows/imgui/imgui_draw.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\redpl\ViaGebra\lib-windows\imgui\imgui_draw.cpp > CMakeFiles\main.dir\lib-windows\imgui\imgui_draw.cpp.i
+CMakeFiles/main.dir/lib/imgui/imgui_draw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/lib/imgui/imgui_draw.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\redpl\ViaGebra\lib\imgui\imgui_draw.cpp > CMakeFiles\main.dir\lib\imgui\imgui_draw.cpp.i
 
-CMakeFiles/main.dir/lib-windows/imgui/imgui_draw.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/lib-windows/imgui/imgui_draw.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\redpl\ViaGebra\lib-windows\imgui\imgui_draw.cpp -o CMakeFiles\main.dir\lib-windows\imgui\imgui_draw.cpp.s
+CMakeFiles/main.dir/lib/imgui/imgui_draw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/lib/imgui/imgui_draw.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\redpl\ViaGebra\lib\imgui\imgui_draw.cpp -o CMakeFiles\main.dir\lib\imgui\imgui_draw.cpp.s
 
-CMakeFiles/main.dir/lib-windows/imgui/imgui_tables.cpp.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/lib-windows/imgui/imgui_tables.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
-CMakeFiles/main.dir/lib-windows/imgui/imgui_tables.cpp.obj: C:/Users/redpl/ViaGebra/lib-windows/imgui/imgui_tables.cpp
-CMakeFiles/main.dir/lib-windows/imgui/imgui_tables.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\redpl\ViaGebra\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/lib-windows/imgui/imgui_tables.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/lib-windows/imgui/imgui_tables.cpp.obj -MF CMakeFiles\main.dir\lib-windows\imgui\imgui_tables.cpp.obj.d -o CMakeFiles\main.dir\lib-windows\imgui\imgui_tables.cpp.obj -c C:\Users\redpl\ViaGebra\lib-windows\imgui\imgui_tables.cpp
+CMakeFiles/main.dir/lib/imgui/imgui_tables.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/lib/imgui/imgui_tables.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/lib/imgui/imgui_tables.cpp.obj: C:/Users/redpl/ViaGebra/lib/imgui/imgui_tables.cpp
+CMakeFiles/main.dir/lib/imgui/imgui_tables.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\redpl\ViaGebra\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/lib/imgui/imgui_tables.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/lib/imgui/imgui_tables.cpp.obj -MF CMakeFiles\main.dir\lib\imgui\imgui_tables.cpp.obj.d -o CMakeFiles\main.dir\lib\imgui\imgui_tables.cpp.obj -c C:\Users\redpl\ViaGebra\lib\imgui\imgui_tables.cpp
 
-CMakeFiles/main.dir/lib-windows/imgui/imgui_tables.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/lib-windows/imgui/imgui_tables.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\redpl\ViaGebra\lib-windows\imgui\imgui_tables.cpp > CMakeFiles\main.dir\lib-windows\imgui\imgui_tables.cpp.i
+CMakeFiles/main.dir/lib/imgui/imgui_tables.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/lib/imgui/imgui_tables.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\redpl\ViaGebra\lib\imgui\imgui_tables.cpp > CMakeFiles\main.dir\lib\imgui\imgui_tables.cpp.i
 
-CMakeFiles/main.dir/lib-windows/imgui/imgui_tables.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/lib-windows/imgui/imgui_tables.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\redpl\ViaGebra\lib-windows\imgui\imgui_tables.cpp -o CMakeFiles\main.dir\lib-windows\imgui\imgui_tables.cpp.s
+CMakeFiles/main.dir/lib/imgui/imgui_tables.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/lib/imgui/imgui_tables.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\redpl\ViaGebra\lib\imgui\imgui_tables.cpp -o CMakeFiles\main.dir\lib\imgui\imgui_tables.cpp.s
 
-CMakeFiles/main.dir/lib-windows/imgui/imgui_widgets.cpp.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/lib-windows/imgui/imgui_widgets.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
-CMakeFiles/main.dir/lib-windows/imgui/imgui_widgets.cpp.obj: C:/Users/redpl/ViaGebra/lib-windows/imgui/imgui_widgets.cpp
-CMakeFiles/main.dir/lib-windows/imgui/imgui_widgets.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\redpl\ViaGebra\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/lib-windows/imgui/imgui_widgets.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/lib-windows/imgui/imgui_widgets.cpp.obj -MF CMakeFiles\main.dir\lib-windows\imgui\imgui_widgets.cpp.obj.d -o CMakeFiles\main.dir\lib-windows\imgui\imgui_widgets.cpp.obj -c C:\Users\redpl\ViaGebra\lib-windows\imgui\imgui_widgets.cpp
+CMakeFiles/main.dir/lib/imgui/imgui_widgets.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/lib/imgui/imgui_widgets.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/lib/imgui/imgui_widgets.cpp.obj: C:/Users/redpl/ViaGebra/lib/imgui/imgui_widgets.cpp
+CMakeFiles/main.dir/lib/imgui/imgui_widgets.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\redpl\ViaGebra\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/lib/imgui/imgui_widgets.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/lib/imgui/imgui_widgets.cpp.obj -MF CMakeFiles\main.dir\lib\imgui\imgui_widgets.cpp.obj.d -o CMakeFiles\main.dir\lib\imgui\imgui_widgets.cpp.obj -c C:\Users\redpl\ViaGebra\lib\imgui\imgui_widgets.cpp
 
-CMakeFiles/main.dir/lib-windows/imgui/imgui_widgets.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/lib-windows/imgui/imgui_widgets.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\redpl\ViaGebra\lib-windows\imgui\imgui_widgets.cpp > CMakeFiles\main.dir\lib-windows\imgui\imgui_widgets.cpp.i
+CMakeFiles/main.dir/lib/imgui/imgui_widgets.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/lib/imgui/imgui_widgets.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\redpl\ViaGebra\lib\imgui\imgui_widgets.cpp > CMakeFiles\main.dir\lib\imgui\imgui_widgets.cpp.i
 
-CMakeFiles/main.dir/lib-windows/imgui/imgui_widgets.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/lib-windows/imgui/imgui_widgets.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\redpl\ViaGebra\lib-windows\imgui\imgui_widgets.cpp -o CMakeFiles\main.dir\lib-windows\imgui\imgui_widgets.cpp.s
+CMakeFiles/main.dir/lib/imgui/imgui_widgets.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/lib/imgui/imgui_widgets.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\redpl\ViaGebra\lib\imgui\imgui_widgets.cpp -o CMakeFiles\main.dir\lib\imgui\imgui_widgets.cpp.s
 
-CMakeFiles/main.dir/lib-windows/rlimgui/rlImGui.cpp.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/lib-windows/rlimgui/rlImGui.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
-CMakeFiles/main.dir/lib-windows/rlimgui/rlImGui.cpp.obj: C:/Users/redpl/ViaGebra/lib-windows/rlimgui/rlImGui.cpp
-CMakeFiles/main.dir/lib-windows/rlimgui/rlImGui.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\redpl\ViaGebra\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/lib-windows/rlimgui/rlImGui.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/lib-windows/rlimgui/rlImGui.cpp.obj -MF CMakeFiles\main.dir\lib-windows\rlimgui\rlImGui.cpp.obj.d -o CMakeFiles\main.dir\lib-windows\rlimgui\rlImGui.cpp.obj -c C:\Users\redpl\ViaGebra\lib-windows\rlimgui\rlImGui.cpp
+CMakeFiles/main.dir/lib/rlimgui/rlImGui.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/lib/rlimgui/rlImGui.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/lib/rlimgui/rlImGui.cpp.obj: C:/Users/redpl/ViaGebra/lib/rlimgui/rlImGui.cpp
+CMakeFiles/main.dir/lib/rlimgui/rlImGui.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\redpl\ViaGebra\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/lib/rlimgui/rlImGui.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/lib/rlimgui/rlImGui.cpp.obj -MF CMakeFiles\main.dir\lib\rlimgui\rlImGui.cpp.obj.d -o CMakeFiles\main.dir\lib\rlimgui\rlImGui.cpp.obj -c C:\Users\redpl\ViaGebra\lib\rlimgui\rlImGui.cpp
 
-CMakeFiles/main.dir/lib-windows/rlimgui/rlImGui.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/lib-windows/rlimgui/rlImGui.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\redpl\ViaGebra\lib-windows\rlimgui\rlImGui.cpp > CMakeFiles\main.dir\lib-windows\rlimgui\rlImGui.cpp.i
+CMakeFiles/main.dir/lib/rlimgui/rlImGui.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/lib/rlimgui/rlImGui.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\redpl\ViaGebra\lib\rlimgui\rlImGui.cpp > CMakeFiles\main.dir\lib\rlimgui\rlImGui.cpp.i
 
-CMakeFiles/main.dir/lib-windows/rlimgui/rlImGui.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/lib-windows/rlimgui/rlImGui.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\redpl\ViaGebra\lib-windows\rlimgui\rlImGui.cpp -o CMakeFiles\main.dir\lib-windows\rlimgui\rlImGui.cpp.s
+CMakeFiles/main.dir/lib/rlimgui/rlImGui.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/lib/rlimgui/rlImGui.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\redpl\ViaGebra\lib\rlimgui\rlImGui.cpp -o CMakeFiles\main.dir\lib\rlimgui\rlImGui.cpp.s
 
 CMakeFiles/main.dir/src/drawfunc.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/drawfunc.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
@@ -206,11 +206,26 @@ CMakeFiles/main.dir/src/input.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/input.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\redpl\ViaGebra\src\input.cpp -o CMakeFiles\main.dir\src\input.cpp.s
 
+CMakeFiles/main.dir/src/luaApi.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/luaApi.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/src/luaApi.cpp.obj: C:/Users/redpl/ViaGebra/src/luaApi.cpp
+CMakeFiles/main.dir/src/luaApi.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\redpl\ViaGebra\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/main.dir/src/luaApi.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/luaApi.cpp.obj -MF CMakeFiles\main.dir\src\luaApi.cpp.obj.d -o CMakeFiles\main.dir\src\luaApi.cpp.obj -c C:\Users\redpl\ViaGebra\src\luaApi.cpp
+
+CMakeFiles/main.dir/src/luaApi.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/luaApi.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\redpl\ViaGebra\src\luaApi.cpp > CMakeFiles\main.dir\src\luaApi.cpp.i
+
+CMakeFiles/main.dir/src/luaApi.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/luaApi.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\redpl\ViaGebra\src\luaApi.cpp -o CMakeFiles\main.dir\src\luaApi.cpp.s
+
 CMakeFiles/main.dir/src/main.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/main.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/src/main.cpp.obj: C:/Users/redpl/ViaGebra/src/main.cpp
 CMakeFiles/main.dir/src/main.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\redpl\ViaGebra\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/main.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\redpl\ViaGebra\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/main.dir/src/main.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/main.cpp.obj -MF CMakeFiles\main.dir\src\main.cpp.obj.d -o CMakeFiles\main.dir\src\main.cpp.obj -c C:\Users\redpl\ViaGebra\src\main.cpp
 
 CMakeFiles/main.dir/src/main.cpp.i: cmake_force
@@ -223,36 +238,39 @@ CMakeFiles/main.dir/src/main.cpp.s: cmake_force
 
 # Object files for target main
 main_OBJECTS = \
-"CMakeFiles/main.dir/lib-windows/imgui/imgui.cpp.obj" \
-"CMakeFiles/main.dir/lib-windows/imgui/imgui_demo.cpp.obj" \
-"CMakeFiles/main.dir/lib-windows/imgui/imgui_draw.cpp.obj" \
-"CMakeFiles/main.dir/lib-windows/imgui/imgui_tables.cpp.obj" \
-"CMakeFiles/main.dir/lib-windows/imgui/imgui_widgets.cpp.obj" \
-"CMakeFiles/main.dir/lib-windows/rlimgui/rlImGui.cpp.obj" \
+"CMakeFiles/main.dir/lib/imgui/imgui.cpp.obj" \
+"CMakeFiles/main.dir/lib/imgui/imgui_demo.cpp.obj" \
+"CMakeFiles/main.dir/lib/imgui/imgui_draw.cpp.obj" \
+"CMakeFiles/main.dir/lib/imgui/imgui_tables.cpp.obj" \
+"CMakeFiles/main.dir/lib/imgui/imgui_widgets.cpp.obj" \
+"CMakeFiles/main.dir/lib/rlimgui/rlImGui.cpp.obj" \
 "CMakeFiles/main.dir/src/drawfunc.cpp.obj" \
 "CMakeFiles/main.dir/src/gui.cpp.obj" \
 "CMakeFiles/main.dir/src/input.cpp.obj" \
+"CMakeFiles/main.dir/src/luaApi.cpp.obj" \
 "CMakeFiles/main.dir/src/main.cpp.obj"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
-main.exe: CMakeFiles/main.dir/lib-windows/imgui/imgui.cpp.obj
-main.exe: CMakeFiles/main.dir/lib-windows/imgui/imgui_demo.cpp.obj
-main.exe: CMakeFiles/main.dir/lib-windows/imgui/imgui_draw.cpp.obj
-main.exe: CMakeFiles/main.dir/lib-windows/imgui/imgui_tables.cpp.obj
-main.exe: CMakeFiles/main.dir/lib-windows/imgui/imgui_widgets.cpp.obj
-main.exe: CMakeFiles/main.dir/lib-windows/rlimgui/rlImGui.cpp.obj
+main.exe: CMakeFiles/main.dir/lib/imgui/imgui.cpp.obj
+main.exe: CMakeFiles/main.dir/lib/imgui/imgui_demo.cpp.obj
+main.exe: CMakeFiles/main.dir/lib/imgui/imgui_draw.cpp.obj
+main.exe: CMakeFiles/main.dir/lib/imgui/imgui_tables.cpp.obj
+main.exe: CMakeFiles/main.dir/lib/imgui/imgui_widgets.cpp.obj
+main.exe: CMakeFiles/main.dir/lib/rlimgui/rlImGui.cpp.obj
 main.exe: CMakeFiles/main.dir/src/drawfunc.cpp.obj
 main.exe: CMakeFiles/main.dir/src/gui.cpp.obj
 main.exe: CMakeFiles/main.dir/src/input.cpp.obj
+main.exe: CMakeFiles/main.dir/src/luaApi.cpp.obj
 main.exe: CMakeFiles/main.dir/src/main.cpp.obj
 main.exe: CMakeFiles/main.dir/build.make
-main.exe: C:/Users/redpl/ViaGebra/lib-windows/raylib/lib/libraylib.a
+main.exe: C:/Users/redpl/ViaGebra/lib/raylib/lib/libraylib.a
+main.exe: C:/Users/redpl/ViaGebra/lib/lua/lib/lua54.lib
 main.exe: CMakeFiles/main.dir/linkLibs.rsp
 main.exe: CMakeFiles/main.dir/objects1.rsp
 main.exe: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\redpl\ViaGebra\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable main.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\redpl\ViaGebra\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable main.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\main.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

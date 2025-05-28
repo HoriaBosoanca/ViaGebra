@@ -1,8 +1,9 @@
 #include "drawfunc.h"
+#include <functional>
 #include "raylib.h"
 #include "main.h"
 
-void drawFunc(float (*func)(float)) {
+void drawFunc(std::function<float(float)> func) {
 	float prevX = -100.0, prevY = func(-100.0f);
 	for (float i = -100.0f; i <= 100.0f; i += 0.01f) {
 		drawLine({i, func(i)}, {prevX, prevY}, 5.0, RED);

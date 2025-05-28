@@ -5,17 +5,20 @@ set(CMAKE_CXX_STANDARD 23)
 
 file(GLOB SOURCES CONFIGURE_DEPENDS
         src/*.cpp
-        lib-windows/imgui/*.cpp
-        lib-windows/rlimgui/*.cpp
+        lib/imgui/*.cpp
+        lib/rlimgui/*.cpp
 )
 add_executable(main ${SOURCES})
 target_include_directories(main PRIVATE
         ${CMAKE_CURRENT_SOURCE_DIR}/include
-        ${CMAKE_CURRENT_SOURCE_DIR}/lib-windows/raylib/include
-        ${CMAKE_CURRENT_SOURCE_DIR}/lib-windows/imgui
-        ${CMAKE_CURRENT_SOURCE_DIR}/lib-windows/rlimgui
+        ${CMAKE_CURRENT_SOURCE_DIR}/lib/raylib/include
+        ${CMAKE_CURRENT_SOURCE_DIR}/lib/imgui
+        ${CMAKE_CURRENT_SOURCE_DIR}/lib/rlimgui
+        ${CMAKE_CURRENT_SOURCE_DIR}/lib/lua/include
+        ${CMAKE_CURRENT_SOURCE_DIR}/lib/sol2
 )
 target_link_libraries(main PRIVATE
-        ${CMAKE_CURRENT_SOURCE_DIR}/lib-windows/raylib/lib/libraylib.a
+        ${CMAKE_CURRENT_SOURCE_DIR}/lib/raylib/lib/libraylib.a
+        ${CMAKE_CURRENT_SOURCE_DIR}/lib/lua/lib/lua54.lib
         winmm
 )

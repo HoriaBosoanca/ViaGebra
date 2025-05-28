@@ -1,0 +1,1 @@
+-IC:/Users/redpl/ViaGebra/include -I"C:/Users/redpl/ViaGebra/lib-windows/raylib/include" -I"C:/Users/redpl/ViaGebra/lib-windows/imgui" -I"C:/Users/redpl/ViaGebra/lib-windows/rlimgui" -I"C:/Users/redpl/ViaGebra/lib-windows/sol2/lua-5.4.7/src" -I"C:/Users/redpl/ViaGebra/lib-windows/sol2"

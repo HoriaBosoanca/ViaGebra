@@ -1,11 +1,9 @@
+#include <complex>
 #include "drawfunc.h"
 #include "gui.h"
 #include "input.h"
+#include "luaApi.h"
 #include "rlImGui.h"
-
-float f(float x) {
-    return x*x;
-}
 
 float X_SCREEN;
 float Y_SCREEN;
@@ -19,13 +17,15 @@ int main()
     X_SCREEN = GetMonitorWidth(monitor);
     Y_SCREEN = GetMonitorHeight(monitor);
 
+    initLua();
+
     while (!WindowShouldClose())
     {
         BeginDrawing();
         ClearBackground(RAYWHITE);
 
         handleInput();
-        drawFunc(f);
+        drawFunc(getLuaFunc());
         drawGui();
 
         EndDrawing();
