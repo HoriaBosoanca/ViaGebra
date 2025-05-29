@@ -5,14 +5,14 @@
 #include "luaApi.h"
 #include "rlImGui.h"
 
-char code[1024] = R"(function f(x)
+char code[32768] = R"(function f(x)
 	if x<0 then
 		return x*x
 	else
  		return math.sin(x)
 	end
 end)";
-char luaError[1024];
+char luaError[32768];
 
 void drawGui() {
 	rlImGuiBegin();

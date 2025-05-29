@@ -8,6 +8,7 @@ file(GLOB SOURCES CONFIGURE_DEPENDS
         lib/imgui/*.cpp
         lib/rlimgui/*.cpp
 )
+set(CMAKE_EXE_LINKER_FLAGS "-static -static-libgcc -static-libstdc++")
 add_executable(main ${SOURCES})
 target_include_directories(main PRIVATE
         ${CMAKE_CURRENT_SOURCE_DIR}/include
