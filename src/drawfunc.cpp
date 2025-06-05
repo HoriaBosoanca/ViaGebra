@@ -22,7 +22,7 @@ void drawFunc(std::function<float(float)> func) {
 void draw_Axis_X() {
 	float prevX = -100.0, prevY = 0, j = -100.0f;
 	for (int y = 0; y < 5; y++) {
-		drawLine({j, 0}, {prevX, prevY}, 2.0, GREEN);
+		drawLine({j, 0}, {prevX, prevY}, 2.0, YELLOW);
 		prevX = j;
 		j += 0.1f;
 	}
@@ -33,7 +33,7 @@ void draw_Axis_X() {
 			j += 0.1f;
 		}
 		for (int y = 0; y < 10; y++) {
-			drawLine({j, 0}, {prevX, prevY}, 2.0, GREEN);
+			drawLine({j, 0}, {prevX, prevY}, 2.0, YELLOW);
 			prevX = j;
 			j += 0.1f;
 		}
@@ -42,7 +42,7 @@ void draw_Axis_X() {
 void draw_Axis_Y() {
 	float prevX = 0, prevY = -100, j = -100.0f;
 	for (int y = 0; y < 5; y++) {
-		drawLine({0, j}, {prevX, prevY}, 2.0, GREEN);
+		drawLine({0, j}, {prevX, prevY}, 2.0, YELLOW);
 		prevY = j;
 		j += 0.1f;
 	}
@@ -53,7 +53,7 @@ void draw_Axis_Y() {
 			j += 0.1f;
 		}
 		for (int y = 0; y < 10; y++) {
-			drawLine({0, j}, {prevX, prevY}, 2.0, GREEN);
+			drawLine({0, j}, {prevX, prevY}, 2.0, YELLOW);
 			prevY = j;
 			j += 0.1f;
 		}
