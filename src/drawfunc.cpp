@@ -19,7 +19,7 @@ void draw_Axis_X() {
 		prevX = j;
 		j += 0.1f;
 	}
-	for (j = -99.5f; j <= 100.0f; j += 0.1f){
+	for (j = -100.0f; j <= 100.0f; j += 0.1f){
 		for (int g = 0; g < 90; g++) {
 			drawLine({j, 0}, {prevX, prevY}, 2.0, BLACK);
 			prevX = j;
@@ -39,7 +39,7 @@ void draw_Axis_Y() {
 		prevY = j;
 		j += 0.1f;
 	}
-	for (j = -99.5f; j <= 100.0f; j += 0.1f) {
+	for (j = -100.0f; j <= 100.0f; j += 0.1f) {
 		for (int g = 0; g < 90; g++) {
 			drawLine({0, j}, {prevX, prevY}, 2.0, BLACK);
 			prevY = j;
@@ -52,6 +52,7 @@ void draw_Axis_Y() {
 		}
 	}
 }
+
 // range (0, 0) -> (100, 100)
 void drawLine(Vector2 p1, Vector2 p2, const float thickness, const Color color) {
 	p1.x = (p1.x / 200.0f +0.5f) * X_SCREEN;
