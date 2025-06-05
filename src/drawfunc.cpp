@@ -1,7 +1,14 @@
 #include "drawfunc.h"
 #include <functional>
+#include "luaApi.h"
 #include "raylib.h"
 #include "main.h"
+
+void draw() {
+	draw_Axis_X();
+	draw_Axis_Y();
+	drawFunc(getLuaFunc());
+}
 
 void drawFunc(std::function<float(float)> func) {
 	float prevX = -100.0, prevY = func(-100.0f);

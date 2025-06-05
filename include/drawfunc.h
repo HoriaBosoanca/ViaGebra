@@ -5,6 +5,7 @@
 
 #include "../lib/raylib/include/raylib.h"
 
+void draw();
 void drawFunc(std::function<float(float)>);
 void drawLine(Vector2 p1, Vector2 p2, float thickness, Color color);
 void draw_Axis_X();
