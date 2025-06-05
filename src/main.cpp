@@ -23,7 +23,8 @@ int main()
     {
         BeginDrawing();
         ClearBackground(RAYWHITE);
-
+        draw_Axis_X();
+        draw_Axis_Y();
         handleInput();
         drawFunc(getLuaFunc());
         drawGui();
