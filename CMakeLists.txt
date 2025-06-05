@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 23)
 file(GLOB SOURCES CONFIGURE_DEPENDS
         src/*.cpp
         lib/imgui/*.cpp
-        lib/rlimgui/*.cpp
+        lib/rlimgui2/*.cpp
 )
 set(CMAKE_EXE_LINKER_FLAGS "-static -static-libgcc -static-libstdc++")
 add_executable(main ${SOURCES})
@@ -14,7 +14,7 @@ target_include_directories(main PRIVATE
         ${CMAKE_CURRENT_SOURCE_DIR}/include
         ${CMAKE_CURRENT_SOURCE_DIR}/lib/raylib/include
         ${CMAKE_CURRENT_SOURCE_DIR}/lib/imgui
-        ${CMAKE_CURRENT_SOURCE_DIR}/lib/rlimgui
+        ${CMAKE_CURRENT_SOURCE_DIR}/lib/rlimgui2
         ${CMAKE_CURRENT_SOURCE_DIR}/lib/lua/include
         ${CMAKE_CURRENT_SOURCE_DIR}/lib/sol2
 )
