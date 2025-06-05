@@ -20,3 +20,4 @@ void drawLine(Vector2 p1, Vector2 p2, const float thickness, const Color color) 
 	p2.y = (-p2.y / 200.0f +0.5f) * Y_SCREEN;
 	DrawLineEx(p1, p2, thickness, color);
 }
+

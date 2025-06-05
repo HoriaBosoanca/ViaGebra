@@ -4,6 +4,7 @@
 #include "input.h"
 #include "luaApi.h"
 #include "rlImGui.h"
+#include "axe.h"
 
 float X_SCREEN;
 float Y_SCREEN;
@@ -25,9 +26,10 @@ int main()
         ClearBackground(RAYWHITE);
 
         handleInput();
+
         drawFunc(getLuaFunc());
         drawGui();
-
+        axe();
         EndDrawing();
     }
 
